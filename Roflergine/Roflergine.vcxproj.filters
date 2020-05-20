@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\GameSystem\GameObjectRegister.cpp" />
+    <ClCompile Include="src\GameSystem\GameObject\CameraObject.cpp" />
+    <ClCompile Include="src\GameSystem\GameObject\GraphicGameObject.cpp" />
+    <ClCompile Include="src\GameSystem\GameObject\GraphicObjectRotator.cpp" />
+    <ClCompile Include="src\GameSystem\GameObject\Light\AmbientLightSource.cpp" />
+    <ClCompile Include="src\GameSystem\GameObject\Light\DirectionalLightSource.cpp" />
+    <ClCompile Include="src\GameSystem\GameScene.cpp" />
+    <ClCompile Include="src\GameSystem\SystemManager\SystemManager.cpp" />
+    <ClCompile Include="src\GLTool\GLManager.cpp" />
+    <ClCompile Include="src\GLTool\GLProgram.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Math\VectorMath.cpp" />
+    <ClCompile Include="src\Mesh\Mesh.cpp" />
+    <ClCompile Include="src\Object\Camera.cpp" />
+    <ClCompile Include="src\Object\GraphicObject.cpp" />
+    <ClCompile Include="src\Phisic\InertialObject.cpp" />
+    <ClCompile Include="src\Phisic\PhisicWorld.cpp" />
+    <ClCompile Include="src\Shader\ShaderManager.cpp" />
+    <ClCompile Include="src\Shader\Types.cpp" />
+    <ClCompile Include="src\Shader\Uniform\UniformSystem.h" />
+    <ClCompile Include="src\Shader\Uniform\UniformTypes.h" />
+    <ClCompile Include="src\Texture\Texture2D.cpp" />
+    <ClCompile Include="src\Utils\Error.cpp" />
+    <ClCompile Include="src\Utils\FPSController.cpp" />
+    <ClCompile Include="src\Utils\System.cpp" />
+    <ClCompile Include="src\Window\Window.cpp" />
+    <ClCompile Include="src\Shader\Uniform\UniformSystem.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\GameSystem\GameObjectRegister.h" />
+    <ClInclude Include="src\GameSystem\GameObject\CameraObject.h" />
+    <ClInclude Include="src\GameSystem\GameObject\GraphicGameObject.h" />
+    <ClInclude Include="src\GameSystem\GameObject\GraphicObjectRotator.h" />
+    <ClInclude Include="src\GameSystem\GameObject\Light\AmbientLightSource.h" />
+    <ClInclude Include="src\GameSystem\GameObject\Light\DirectionalLightSource.h" />
+    <ClInclude Include="src\GameSystem\IGameObject.h" />
+    <ClInclude Include="src\GameSystem\GameScene.h" />
+    <ClInclude Include="src\GameSystem\SceneParserUtils\TagTransformParser.h" />
+    <ClInclude Include="src\GameSystem\SystemManager\SystemManager.h" />
+    <ClInclude Include="src\GLTool\GLManager.h" />
+    <ClInclude Include="src\GLTool\GLProgram.h" />
+    <ClInclude Include="src\Light\BaseLightSource.h" />
+    <ClInclude Include="src\Math\NumberCircle.h" />
+    <ClInclude Include="src\Math\VectorMath.h" />
+    <ClInclude Include="src\Mesh\Mesh.h" />
+    <ClInclude Include="src\Object\Camera.h" />
+    <ClInclude Include="src\Object\GraphicObject.h" />
+    <ClInclude Include="src\Phisic\InertialObject.h" />
+    <ClInclude Include="src\Phisic\IPhisicSimutatable.h" />
+    <ClInclude Include="src\Phisic\PhisicWorld.h" />
+    <ClInclude Include="src\Settings.h" />
+    <ClInclude Include="src\Shader\Manager\ShaderManager.h" />
+    <ClInclude Include="src\Shader\ShaderManager.h" />
+    <ClInclude Include="src\Shader\Types.h" />
+    <ClInclude Include="src\Texture\Texture2D.h" />
+    <ClInclude Include="src\Utils\Error.h" />
+    <ClInclude Include="src\Utils\FPSController.h" />
+    <ClInclude Include="src\Utils\System.h" />
+    <ClInclude Include="src\Utils\TimeValue.h" />
+    <ClInclude Include="src\Window\IControlHandler.h" />
+    <ClInclude Include="src\Window\Window.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="resources\scenes\default.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xsd Include="notes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\default.frag" />
+    <None Include="resources\shaders\default.vert" />
+  </ItemGroup>
+</Project>

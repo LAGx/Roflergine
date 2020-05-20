@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <GLEW_PATH>C:\dev\cpp\libs\opengl\glew32</GLEW_PATH>
+    <GLFW_PATH>C:\dev\cpp\libs\opengl\glfw64</GLFW_PATH>
+    <GLM_PATH>C:\dev\cpp\libs\glm-0.9.9.7</GLM_PATH>
+    <SOIL_PATH>C:\dev\cpp\libs\soil\compiled</SOIL_PATH>
+    <ASSIMP_PATH>C:\dev\cpp\libs\assimp-4.1.0</ASSIMP_PATH>
+    <TINYXML_PATH>C:\dev\cpp\libs\tinyxml2\compiled</TINYXML_PATH>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="GLEW_PATH">
+      <Value>$(GLEW_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="GLFW_PATH">
+      <Value>$(GLFW_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="GLM_PATH">
+      <Value>$(GLM_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SOIL_PATH">
+      <Value>$(SOIL_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="ASSIMP_PATH">
+      <Value>$(ASSIMP_PATH)</Value>
+    </BuildMacro>
+    <BuildMacro Include="TINYXML_PATH">
+      <Value>$(TINYXML_PATH)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>

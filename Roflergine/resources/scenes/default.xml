@@ -1,0 +1,95 @@
+<Scene>
+  
+  <GameObject class="camera">
+    <Transform>
+      <Position x="-33.48" y="-4.49" z="-29.27"/>
+      <Rotation x="0.12" y="5.47" z="0"/>
+    </Transform>
+    <Fov value="100"/>
+  </GameObject>
+
+  <GameObject class="light_ambient">
+    <Color r="1.0" g="0.9" b="0.9" a="1.0"/>
+    <Intensity value="0.3"/>
+  </GameObject>
+
+  <GameObject class="light_directional">
+    <Color r="1.0" g="0.8" b="1.0" a="1.0"/>
+    <Intensity value="1.0"/>
+    <Direction x="1" y="-2" z="-1"/>
+  </GameObject>
+  
+  <GameObject enabled="1" class="graphic_object">
+    <Transform>
+      <Position x="10" y="2" z="10"/>
+      <Rotation x="0" y="10" z="0"/>
+      <Scale x="1" y="1" z="1"/>
+    </Transform>
+    <Mesh path="resources/models/paradise/bigTree.blend"/>
+    <Texture2D path="resources/models/paradise/tree.png"/>
+  </GameObject>
+
+  <GameObject enabled="1" class="graphic_object">
+    <Transform>
+      <Position x="15" y="2" z="20"/>
+      <Rotation x="0" y="1.6" z="0"/>
+      <Scale x="1" y="1" z="1"/>
+    </Transform>
+    <Mesh path="resources/models/paradise/bigTree.blend"/>
+    <Texture2D path="resources/models/paradise/tree.png"/>
+  </GameObject>
+
+  <GameObject enabled="1" class="graphic_object">
+    <Transform>
+      <Position x="20" y="2" z="5"/>
+      <Rotation x="0.1" y="2.4" z="0.05"/>
+      <Scale x="1" y="1" z="1"/>
+    </Transform>
+    <Mesh path="resources/models/paradise/bigTree.blend"/>
+    <Texture2D path="resources/models/paradise/tree.png"/>
+  </GameObject>
+
+  <GameObject enabled="1" class="graphic_object">
+    <Transform>
+      <Position x="0" y="0" z="0"/>
+      <Rotation x="0" y="0" z="0"/>
+      <Scale x="1" y="1" z="1"/>
+    </Transform>
+    <Mesh path="resources/models/paradise/land.blend"/>
+    <Texture2D path="resources/models/paradise/land.png"/>
+  </GameObject>
+
+  <GameObject enabled="0" class="graphic_object">
+    <Transform>
+      <Position x="0" y="0" z="0"/>
+      <Rotation x="0" y="0" z="0"/>
+      <Scale x="0" y="0" z="0"/>
+    </Transform>
+    <Mesh path=""/>
+    <Texture2D path=""/>
+  </GameObject>
+
+  <GameObject enabled="0" class="light_source">
+    <Transform>
+      <Position x="0" y="0" z="0"/>
+      <Rotation x="0" y="0" z="0"/>
+      <Scale x="0" y="0" z="0"/>
+    </Transform>
+    <SourceType value="ambient"/>
+    <Color value="ffffcc"/>
+    <Intence value="0.1"/>
+  </GameObject>
+
+  <GameObject enabled="0" class="light_source">
+    <Transform>
+      <Position x="0" y="0" z="0"/>
+      <Rotation x="0" y="0" z="0"/>
+      <Scale x="0" y="0" z="0"/>
+    </Transform>
+    <SourceType value="directional"/>
+    <Color value="ffffcc"/>
+    <Intence value="0.1"/>
+    <Direction value="0;0;0"/>
+  </GameObject>
+  
+</Scene>
